@@ -1,4 +1,10 @@
 {
+  "creativetab.dfirstmod.tab1": "D First Mod Ores",
+  "creativetab.dfirstmod.tab2": "D First Mod Blocks",
+
   "item.dfirstmod.cobalt_ingot": "Cobalt Ingot",
-  "item.dfirstmod.raw_cobalt": "Raw Cobalt"
+  "item.dfirstmod.raw_cobalt": "Raw Cobalt",
+
+  "block.dfirstmod.cobalt_block": "Cobalt Block",
+  "block.dfirstmod.cobalt_ore": "Cobalt Ore"
 }
