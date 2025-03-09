@@ -19,13 +19,13 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> COBALT_BLOCK = registerBlock("cobalt_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .destroyTime(Blocks.IRON_BLOCK.defaultDestroyTime())
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+                    .strength(0.2f, 5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)));
 
     public static final DeferredBlock<Block> COBALT_ORE = registerBlock("cobalt_ore",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .destroyTime(Blocks.IRON_ORE.defaultDestroyTime())
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    .strength(1f, 5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

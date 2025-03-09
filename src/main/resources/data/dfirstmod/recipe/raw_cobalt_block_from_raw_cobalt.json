@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "dfirstmod:raw_cobalt"
+    }
+  },
+  "result": {
+    "count": "1",
+    "id": "dfirstmod:raw_cobalt_block"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experience": 1,
+  "ingredient": {
+      "item": "dfirstmod:raw_cobalt_block"
+  },
+
+  "result": {
+    "id": "dfirstmod:cobalt_block"
+  }
+
+
+
+}
