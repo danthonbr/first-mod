@@ -19,12 +19,23 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> COBALT_BLOCK = registerBlock("cobalt_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(0.2f, 5f).requiresCorrectToolForDrops()
+                    .strength(5f, 5f).requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
+
+    public static final DeferredBlock<Block> RAW_COBALT_BLOCK = registerBlock("raw_cobalt_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5.5f, 5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)));
+
 
     public static final DeferredBlock<Block> COBALT_ORE = registerBlock("cobalt_ore",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1f, 5f).requiresCorrectToolForDrops()
+                    .strength(6f, 5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> DEEPSLATE_COBALT_ORE = registerBlock("deepslate_cobalt_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(7f, 5f).requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

@@ -33,6 +33,8 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.COBALT_BLOCK);
                         output.accept(ModBlocks.COBALT_ORE);
+                        output.accept(ModBlocks.RAW_COBALT_BLOCK);
+                        output.accept(ModBlocks.DEEPSLATE_COBALT_ORE);
 
                     })
                     .build());

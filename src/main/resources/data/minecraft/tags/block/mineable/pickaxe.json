@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dfirstmod:cobalt_block",
+    "dfirstmod:cobalt_ore",
+    "dfirstmod:deepslate_cobalt_ore",
+    "dfirstmod:raw_cobalt_block"
+  ]
+}
